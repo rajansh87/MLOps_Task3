@@ -8,8 +8,8 @@ from keras_preprocessing.image import ImageDataGenerator
 test_path='seg_test/'
 train_path='seg_train/'
 num_of_epochs=1
-s_p_epoch=2300
-v_steps=12000
+s_p_epoch=1500
+v_steps=8000
 
 def myModel(num_of_epochs,train_path,test_path,s_p_epoch,v_steps):
 
